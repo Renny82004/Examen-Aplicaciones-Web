@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMC.Views.CalculateIMS"
+             Title="CalculateIMC">
+    <VerticalStackLayout
+        Margin="15"
+        backgroundColor=>
+        <Label 
+            Text="Ingrese el peso del usuario:"
+            Text="Ingrese la altura del usuario:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            backgroundColor="Blue"/>
+        <Entry 
+            x: Name="txt_num1" 
+            Placeholger="Ingrese aquí" 
+            keyboard="Numeric"/>
+        <Button 
+            x:Name="btn_calcular" 
+            Text="Calcular" 
+            BackgroundColor"Azure"
+            Clicked="OnClickCalcular"
+            />
+        <Label x:Name="res_cal"/>
+    </VerticalStackLayout> 
+</ContentPage>

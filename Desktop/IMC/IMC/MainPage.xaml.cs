@@ -3,6 +3,9 @@
 public partial class MainPage : ContentPage
 {
 	int count = 0;
+	double peso= 0;
+	double altura = 0;
+	/**/
 
 	public MainPage()
 	{
